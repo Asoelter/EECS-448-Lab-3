@@ -9,7 +9,7 @@ function validate()
 	let successLabel = document.getElementById("success");
 
 
-	if(password1 == password2)
+	if(password1 == password2 && !(password1.length < 8 || password2.length < 8))
 	{
 		alert("Passwords are valid");
 	}

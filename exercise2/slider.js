@@ -13,9 +13,7 @@ function prevClicked()
 {
 	let image = document.getElementById("display");
 
-	index--;
-
-	if(index < 0)
+	if(--index < 0)
 	{
 		index = 4;
 	}

@@ -1,0 +1,32 @@
+body
+{
+	background-color: blue;
+}
+
+p
+{
+	background-color: blue;
+	color: white;
+	font-family: arial
+	font-size: 22pt;
+}
+
+p.emphasized
+{
+	background-color: blue;
+	color: red;
+	font-family: arial
+	font-size: 64pt;
+}
+
+a
+{
+	background-color: light-blue;
+	color: black;
+}
+
+a:hover
+{
+	background-color: blue;
+	color: white;
+}
